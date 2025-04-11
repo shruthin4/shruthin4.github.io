@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shruthin's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap">
+    <!-- AOS Library for scroll animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#technologies-section">Technologies</a></li>
+                <li><a href="#experience-section">Experience</a></li>
+                <li><a href="#projects-section">Projects</a></li>
+                <li><a href="#education-section">Education</a></li>
+                <li><a href="#certifications-section">Certifications</a></li>
+            </ul>
+            <div class="resume-dropdown">
+                <button class="resume-btn">
+                    <i class="fas fa-file-alt"></i> RESUME <i class="fas fa-caret-down"></i>
+                </button>
+                <div class="resume-dropdown-content">
+                    <a href="static/Shruthin Reddy Sainapuram.pdf" target="_blank">
+                        <i class="fas fa-eye"></i> View Resume
+                    </a>
+                    <a href="static/Shruthin Reddy Sainapuram.pdf" download="Shruthin_Reddy_Sainapuram_Resume.pdf">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    
+
+    
+
+    <div class="main-container">
+        <!-- Header Section -->
+        <header>
+            <div class="header-container">
+                <div class="headshot" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="static/Images/IMG_2807.jpg" alt="My Headshot">
+                </div>
+                <div class="header-text" data-aos="fade-left" data-aos-duration="1000">
+                    <h1>SHRUTHIN REDDY SAINAPURAM</h1>
+                    <h2>MASTER'S STUDENT IN COMPUTER SCIENCE</h2>
+                    <h3>DATA SCIENCE AND MACHINE LEARNING ENTHUSIAST</h3>
+                    
+                    <div class="action-buttons">
+                        <button id="contact-button" class="btn primary-btn">
+                            <i class="fas fa-envelope"></i> Contact Me
+                        </button>
+                        <a href="https://www.linkedin.com/in/shruthin-reddy-sainapuram/" target="_blank" class="btn linkedin-btn">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="https://github.com/shruthin4" target="_blank" class="btn github-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+ 
+                    <div id="contact-info" class="hidden">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:shruthinreddysainapuram@gmail.com">shruthinreddysainapuram@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+14693507477">+1 469-350-7477</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- About Section -->
+        <section id="about-section" data-aos="fade-up" data-aos-duration="800">
+            <h2>ABOUT ME</h2>
+            <div class="about-content">
+                <p>
+                    Hello! I'm Shruthin, a data scientist and machine learning enthusiast passionate about transforming complex data into actionable insights. I'm currently pursuing an M.S. in Computer Science (GPA: 3.96/4.0) at the University of Louisville, with hands-on experience in building end-to-end predictive models and analytics solutions.
+
+                    During my internship at VE Projects, I worked on customer churn analysis by preprocessing 500K+ records using Python and SQL, and developed Power BI dashboards to communicate insights to business stakeholders. My projects span healthcare readmission prediction, AI-powered resume chatbots, and cricket data analysis — showcasing my ability to apply ML, NLP, and cloud tools like Azure and Databricks in real-world scenarios.
+ 
+                    I'm driven by the challenge of solving impactful problems using data, and I’m eager to contribute to teams focused on innovation in healthcare, marketing, and customer analytics.
+                </p>
+            </div>
+        </section>
+
+        <!-- Technologies Section -->
+        <section id="technologies-section" data-aos="fade-up" data-aos-duration="800">
+            <h2>Technologies</h2>
+            <div class="tech-container">
+                <div class="tech-pill" data-aos="zoom-in" data-aos-delay="100">
+                    <span class="tech-text">Python</span>
+                </div>
+                <div class="tech-pill" data-aos="zoom-in" data-aos-delay="150">
+                    <span class="tech-text">scikit-learn</span>
+                </div>
+                <div class="tech-pill" data-aos="zoom-in" data-aos-delay="200">
+                    <span class="tech-text">Pandas</span>
+                </div>
+                <div class="tech-pill" data-aos="zoom-in" data-aos-delay="250">
+                    <span class="tech-text">NumPy</span>
+                </div>
+                <div class="tech-pill" data-aos="zoom-in" data-aos-delay="300">
+                    <span class="tech-text">SQL</span>
+                </div>
+                <div class="tech-pill" data-aos="zoom-in" data-aos-delay="350">
+                    <span class="tech-text">PostgreSQL</span>
+                </div>
+                <div class="tech-pill" data-aos="zoom-in" data-aos-delay="400">
+                    <span class="tech-text">Power BI</span>
+                </div>
+                <div class="tech-pill" data-aos="zoom-in" data-aos-delay="450">
+                    <span class="tech-text">Azure</span>
+                </div>
+                <div class="tech-pill" data-aos="zoom-in" data-aos-delay="500">
+                    <span class="tech-text">PySpark</span>
+                </div>
+                <div class="tech-pill" data-aos="zoom-in" data-aos-delay="550">
+                    <span class="tech-text">ETL/ELT</span>
+                </div>
+                <div class="tech-pill" data-aos="zoom-in" data-aos-delay="600">
+                    <span class="tech-text">Databricks</span>
+                </div>
+                <div class="tech-pill" data-aos="zoom-in" data-aos-delay="650">
+                    <span class="tech-text">Machine Learning</span>
+                </div>
+                <div class="tech-pill" data-aos="zoom-in" data-aos-delay="700">
+                    <span class="tech-text">LLMs</span>
+                </div>
+                <div class="tech-pill" data-aos="zoom-in" data-aos-delay="750">
+                    <span class="tech-text">Prompt Engineering</span>
+                </div>
+                <div class="tech-pill" data-aos="zoom-in" data-aos-delay="800">
+                    <span class="tech-text">RAG</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience-section" data-aos="fade-up" data-aos-duration="800">
+            <h2>Experience</h2>
+            
+            <div class="experience-item" data-aos="fade-up">
+                <div class="experience-left">
+                    <div class="logo-wrapper">
+                        <img src="static/Images/uofl.gif" alt="UofL Logo" class="company-logo">
+                        <div class="company-name">University of Louisville</div>
+                    </div>
+                    <div class="experience-date">September 2023 - Present</div>
+                </div>
+                <div class="experience-right">
+                    <h3>Grading Assistant</h3>
+                    <ul class="experience-details">
+                        <li>Reviewed 80+ weekly C/C++ programming assignments, providing detailed feedback and optimization suggestions that improved overall student performance by 15%</li>
+                        <li>Ensured 100% grading accuracy while maintaining FERPA compliance, guiding students in identifying coding errors and enhancing their problem-solving skills</li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span>C\C++</span>
+                        <span>Data Structures</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="experience-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="experience-left">
+                    <div class="logo-wrapper">
+                        <img src="static/Images/veprojects.png" alt="VE Projects Logo" class="company-logo">
+                        <div class="company-name">VE Projects Private Limited</div>
+                    </div>
+                    <div class="experience-date">August 2022 - May 2023</div>
+                </div>
+                <div class="experience-right">
+                    <h3>Data Science Intern</h3>
+                    <ul class="experience-details">
+                        <li>Cleaned and processed 500K+ customer records using SQL and Python for churn analysis </li>
+                        <li>Built machine learning models (Random Forest, XGBoost) using scikit-learn, improving predictive accuracy from 80% to 85% through feature selection and hyperparameter tuning</li>
+                        <li>Collaborated with business teams and delivered insights via Power BI dashboards to support strategic retention decisions </li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span>Python</span>
+                        <span>SQL</span>
+                        <span>scikit-learn</span>
+                        <span>Power BI</span>
+                        <span>XGBoost</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects-section" data-aos="fade-up" data-aos-duration="800">
+            <h2>Projects</h2>
+            
+            <div class="project-item" data-aos="fade-right" data-aos-delay="100">
+                <div class="project-image">
+                    <img src="static/Images/chatbot.png" alt="AI-Powered Interactive Resume Chatbot">
+                </div>
+                <div class="project-content">
+                    <h3>Interactive Resume Chatbot</h3>
+                    <p>>Developed an AI-powered chatbot using RAG, Flask, and ChromaDB to answer resume-related queries interactively.</p>
+                    <div class="tech-tags">
+                        <span>Flask</span>
+                        <span>ChromaDB</span>
+                        <span>Gemini AI API</span>
+                        <span>RAG</span>
+                        <span>HTML\CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/shruthin4/Portfolio-Chatbot" target="_blank" class="view-project">View Project</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-item" data-aos="fade-left" data-aos-delay="200">
+                <div class="project-image">
+                    <img src="static/Images/healthcare.png" alt="Healthcare Readmission Risk Predictor">
+                </div>
+                <div class="project-content">
+                    <h3>Predicting 30-Day Readmission Risk in Diabetic Patients Using Machine Learning.</h3>
+                    <p>Built a LightGBM-based model to predict diabetic patient readmissions using SHAP for explainability and recall optimization.</p>
+                    <div class="tech-tags">
+                        <span>Python</span>
+                        <span>scikit-learn</span>
+                        <span>Statistical Analysis</span>
+                        <span>Feature Engineering</span>
+                        <span>Model Interpretability(SHAP)</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/shruthin4/diabetic-readmission-prediction" target="_blank" class="view-project">View Project</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-item" data-aos="fade-right" data-aos-delay="300">
+                <div class="project-image">
+                    <img src="static/Images/news.png" alt="News Article Categories Classifier">
+                </div>
+                <div class="project-content">
+                    <h3>News Article Classification Using NLP and Machine Learning</h3>
+                    <p>Implemented a text classification pipeline using NLP and TF-IDF to categorize BBC news articles with 96%+ accuracy.</p>
+                    <div class="tech-tags">
+                        <span>NLP</span>
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                        <span>Feature Engineering</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/shruthin4/News-Articles-Classification" target="_blank" class="view-project">View Project</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-item" data-aos="fade-left" data-aos-delay="400">
+                <div class="project-image">
+                    <img src="static/Images/cricket.png" alt="Cricket Data Analysis Project">
+                </div>
+                <div class="project-content">
+                    <h3>IPL Cricket Data Analysis Project</h3>
+                    <p>Performed end-to-end EDA on IPL data (2007–2024), generating 15+ visualizations for player, team, and venue insights.</p>
+                    <div class="tech-tags">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>Seaborn</span>
+                        <span>Matplotlib</span>
+                        <span>EDA</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/shruthin4/IPL-Cricket-Analysis-2007-2024" target="_blank" class="view-project">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education-section" data-aos="fade-up" data-aos-duration="800">
+            <h2>Education</h2>
+            
+            <div class="education-item" data-aos="fade-up">
+                <div class="education-left">
+                    <div class="logo-wrapper">
+                        <img src="static/Images/uofl.gif" alt="UofL Logo" class="institution-logo">
+                        <div class="institution-name">University of Louisville</div>
+                    </div>
+                    <div class="education-date">2023 - 2025</div>
+                </div>
+                <div class="education-right">
+                    <h3>Master of Science in Computer Science</h3>
+                    <ul class="education-details">
+                        <li>GPA: 3.96/4.0</li>
+                        <li>Coursework: Python and Data Analytic, Data Visualization,Data Structures and Algorithms, Introduction to Machine Learning, Web Mining for E-Commerce </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="education-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="education-left">
+                    <div class="logo-wrapper">
+                        <img src="static/Images/smec.jpg" alt="SMEC Logo" class="institution-logo">
+                        <div class="institution-name">St. Martin's Engineering College</div>
+                    </div>
+                    <div class="education-date">2019 - 2023</div>
+                </div>
+                <div class="education-right">
+                    <h3>Bachelor of Technology in Computer Science</h3>
+                    <ul class="education-details">
+                        <li>GPA: 3.5/4.0</li>
+                        <li>Coursework: Software Engineering, Database Management Systems, Computer Networks, Web Technologies, Object Oriented Programming using C++ </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications-section" data-aos="fade-up" data-aos-duration="800">
+            <h2>Certifications</h2>
+            
+            <div class="certifications-container">
+                <div class="certification-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="certification-logo">
+                        <i class="fab fa-microsoft"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Power BI Data Analyst</h3>
+                        <p>Microsoft</p>
+                        <a href="https://learn.microsoft.com/en-us/users/sainapuramshruthinreddy-8350/credentials/22bf8547ab570526" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+                <div class="certification-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="certification-logo">
+                        <i class="fab fa-microsoft"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Azure Fundamentals</h3>
+                        <p>Microsoft</p>
+                        <a href="https://learn.microsoft.com/en-us/users/sainapuramshruthinreddy-8350/credentials/8ce17b5447b691eb" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+                <div class="certification-item" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="certification-logo">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Data Lakehouse</h3>
+                        <p>Databricks</p>
+                        <a href="https://credentials.databricks.com/e0804545-cfcd-4d26-96fa-58e4dc17ddb4" target="_blank" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+                <div class="certification-item" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="certification-logo">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3>Generative AI</h3>
+                        <p>Oracle</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Shruthin Reddy Sainapuram. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/shruthin4" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/shruthin-reddy-sainapuram/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:shruthinreddysainapuram@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Library for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          
+            AOS.init({
+                once: true, 
+                mirror: false, 
+                offset: 120, 
+            });
+            
+            
+            const contactButton = document.getElementById('contact-button');
+            const contactInfo = document.getElementById('contact-info');
+            
+            contactButton.addEventListener('click', function() {
+                contactInfo.classList.toggle('hidden');
+            });
+            
+            
+            const hamburger = document.querySelector('.hamburger');
+            const navLinks = document.querySelector('.nav-links');
+            
+            hamburger.addEventListener('click', function() {
+                navLinks.classList.toggle('mobile-active');
+            });
+            
+        
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('mobile-active');
+                });
+            });
+            
+
+            const navbar = document.getElementById('navbar');
+            let sticky = navbar.offsetTop;
+            
+            window.onscroll = function() {
+                if (window.pageYOffset > sticky) {
+                    navbar.classList.add('sticky');
+                } else {
+                    navbar.classList.remove('sticky');
+                }
+            };
+        });
+    </script>
+</body>
+</html>
