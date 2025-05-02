@@ -1093,8 +1093,8 @@ footer {
 .medium-btn {
     background-color: #12100E; 
     color: white;
-    border-radius: 4px; 
-    padding: 10px 20px; 
+    padding: 10px 20px;
+    border-radius: 25px; 
     display: inline-flex;
     align-items: center;
     justify-content: center;
